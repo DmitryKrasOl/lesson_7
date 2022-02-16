@@ -1,0 +1,141 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+body {
+	/* background: url("../img/2018zima.png") 0 0 / 300px 300px no-repeat; */
+	background: url("../img/2018zima.png") 0 0 / 300px 300px no-repeat;
+	background: url("../img/2018zima.png") 0 0 / 100% auto no-repeat;
+	background: url("../img/2018zima.png") 0 0 / auto 100% no-repeat;
+	background: url("../img/2018zima.png") 0 0 / 100% 100% no-repeat;
+	background: url("../img/2018zima.png") center center / contain no-repeat;
+	background: url("../img/2018zima.png") center center / cover no-repeat;
+	background: #fff;
+	background: url("../img/moon2.jpg") center top / cover no-repeat fixed;
+}
+
+.header {
+	height: 169px;
+	background: url("../img/2018zima.png") left top no-repeat #6699cc;
+	margin-bottom: 20px;
+}
+
+.header2 {
+	height: 169px;
+	background: url("../img/2018zima.png") center 0px repeat-y #6699cc;
+	margin-bottom: 20px;
+}
+
+.header3 {
+	height: 169px;
+	background: rgb(126, 177, 233);
+	background: url("../img/2018zima.png") 0px 0px repeat-x #6699cc;
+	margin-bottom: 20px;
+}
+
+.border-box {
+	border: 1px solid #c6d9ec;
+	border-radius: 2px;
+	padding: 2px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+
+h2 {
+	color: #fff;
+	font-size: 12pt;
+	text-shadow: 1px 1px 1.5px #2b4157;
+	font-family: Arial;
+	display: block;
+	height: 40px;
+	background: linear-gradient(0deg, rgba(126, 177, 233, 1) 0%, rgba(94, 133, 180, 1) 100%);
+	border-radius: 2px;
+	padding: 12px 0 0 10px;
+}
+
+.inner-box {
+	padding: 20px;
+	height: 300px;
+}
+
+.list {
+	margin-bottom: 40px;
+}
+.list .list-li {
+	background: url("../img/arrow-icon.png") 0 1px / 15px no-repeat;
+	padding: 0px 0px 0px 25px;
+	margin: 0px 0px 5px 0px;
+	/* text-indent: 25px; */
+}
+
+.list2 {
+}
+.list2 .list-li {
+	background: url("../img/arrow-icon.png") 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 5px 0px;
+	line-height: 1.5;
+	/* text-indent: 25px; */
+}
+
+.inner-box-h1 {
+	background: url("../img/moon2.jpg") 0 0 / contain no-repeat;
+}
+
+.inner-box-h2 {
+	overflow: auto;
+	background: url("../img/pngtree-hand-drawn-groovy-floral-pattern-png-image_2908820.jpg") 0 0 / 300px local;
+}
+
+.inner-box-h5 {
+	background: url("../img/moon2.jpg") 0 0 / cover no-repeat;
+}
+
+.bg-width {
+	background: url("../img/moon2.jpg") 0 0 / 100% auto no-repeat;
+}
+
+.bg-contain {
+	background: url("../img/moon2.jpg") 0 0 / contain no-repeat;
+}
+
+.height-500 {
+	min-height: 500px;
+}
+
+.width-700 {
+	width: 700px;
+	min-height: 500px;
+}
+
+.bg-height {
+	background: url("../img/moon2.jpg") 0 0 / auto 100% no-repeat;
+}
+
+.bg-stretch {
+	background: url("../img/moon2.jpg") 0 0 / 100% 100% no-repeat;
+}
+
+.inner-box-h3 {
+	background: url("../img/moon_img.png") left top no-repeat, url("../img/moon_img.png") left bottom no-repeat,
+		url("../img/moon_img.png") right bottom no-repeat, url("../img/moon_img.png") right top no-repeat,
+		url("../img/moon_img.png") left top no-repeat, url("../img/moon_img.png") center center no-repeat,
+		url("../img/moon_img.png") 100px 100px / 100px no-repeat;
+}
+
+.inner-box-h4 {
+	height: 300px;
+	overflow: auto;
+	background: url("../img/moon_img.png") space;
+}
+
+.bg-repeat-round {
+	background: url("../img/moon_img.png") round;
+}
